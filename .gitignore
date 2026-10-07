@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging and test artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated reports and local input data
+output/*
+!output/.gitkeep
+!output/relatorio_vendas.xlsx
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/vendas_processadas.csv
